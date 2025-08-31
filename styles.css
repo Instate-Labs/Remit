@@ -164,7 +164,7 @@ a {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    width: 174px;
+    width: 178px;
     padding: 8px;
 }
 
@@ -227,4 +227,5 @@ a {
     width: 100%;
     /* margin: 20px; */
     padding: 8px;
+
 }
