@@ -83,7 +83,7 @@ a {
 }
 
 .s3 p:nth-child(2){
-    margin-top: -13px;
+    margin-top: 5px;
 
 }
 .title {
@@ -94,7 +94,20 @@ a {
     border-radius: 4px;
 }
 
-.title-input {
+.hour{
+    font-size: 116px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.minute{
+    font-size: 116px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* .title-input {
     font-family: "Figtree", sans-serif;
     font-size: 116px;
     font-weight: bold;
@@ -106,12 +119,56 @@ a {
     justify-content: center;
     text-decoration: none;
     width: 299.5px;
-    /* margin: 20px; */
+    /* margin: 20px;
+    padding: 8px;
+} */
+
+/* Interactive States */
+/* .s2:hover {
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 20px;
+    cursor: pointer;
+} */
+.colon{
+    font-size: 116px;
+    align-items: center;
+    justify-content: center;
+}
+.hour:hover {
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hour-input{
+    font-family: "Figtree", sans-serif;
+    font-size: 116px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 174px;
+    padding: 8px;
+}
+.minute-input{
+    font-family: "Figtree", sans-serif;
+    font-size: 116px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 174px;
     padding: 8px;
 }
 
-/* Interactive States */
-.s2:hover {
+.minute:hover {
     background-color: rgba(255, 255, 255, 0.123);
     border-radius: 20px;
     cursor: pointer;
